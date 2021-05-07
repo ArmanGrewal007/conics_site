@@ -1,0 +1,196 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.whole{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    background-image: linear-gradient(to right, rgb(248, 220, 171), rgb(241, 234, 221), rgb(248, 220, 171));
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+    text-shadow: 1px 1px 1px rgb(134, 131, 131);
+    box-shadow: 3px 2px 3px rgb(134, 131, 131);
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-github {
+    background: black;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-instagram{
+      background: rgb(218, 77, 136);
+      color: white;
+  }
+ 
+
+h1{
+    text-align: center;
+    font-size: 30;
+}
+.ccontainer1{
+    background-image: url("imgs/conic_bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    /* opacity: 0.6; */
+}
+.card {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 161px 20px;
+    grid-template-areas: "image" "text";
+  
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    text-align: center;
+
+    transition: 0.3s ease;
+    cursor: pointer;
+    margin: 30px;
+}
+.card:hover{
+    transform: scale(1.15);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.card-img {
+    /* grid-area:auto; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+#parab_card { background: url("imgs/parab_bg.jpg");}
+#ellipse_card {background: url("imgs/ellipse_bg.jpg");}
+#hyperbola_card { background: url("imgs/hyperbola_bg.jpg");}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+a:link{ color: black; text-decoration: none;}
+a:visited{color: black;}
+/* a:hover{color:grey;} */
+a:active{color: red;}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: rgb(161, 199, 214);        /* color of the tracking area */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(102, 179, 179);   
+    border-radius: 20px;       
+    /* border: 3px solid yellow; */
+  }
+ body::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+table, th, td{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid ;
+    border-collapse: collapse;
+    text-align: center;
+    padding-right: 10px;
+}
+table#table1{
+    /* width: 100%; */
+    background-color: lightsteelblue;
+}
+thead{background-color: white;}
+/* Zebra tables */
+tbody tr:nth-child(odd){
+    background: rgb(161, 199, 214);
+}
+tbody tr:nth-child(even){
+    background: rgb(102, 179, 179);
+}
+
+.pcontainer1 {display: flex;}
+.pitem1 {margin: 2px;}
+#parab_define_img {text-align: center; border: 1px solid black;}
+
+.pcontainer2 {display: flex;}
+.pitem2 {margin: 2px;}
+#parab_label {text-align: center; border: 1px solid black;}
+
+.pcontainer3 {display: flex;}
+.pitem3 {margin: 2px;}
+
+.pcontainer4 {display: flex;}
+.pitem3 {margin: 2px;}
+.pcontainer4-1 {display: flex;}
+.pitem4-1 {margin: 6px; text-align: center;}
+#parab_reflect_label {text-align: center; border: 1px solid black;}
+
+.pcontainer5 {display: flex;}
+.pitem5 {margin: 2px;}
+.pcontainer5-1 {display: flex;}
+.pitem5-1 {text-align: center; margin: 8px;}
+.pcontainer5-2 {display: flex;}
+.pitem5-2 {margin: 8px;}
+.pcontainer5-2-1 {display: flex;}
+.pitem5-2-1 { margin: 60px; text-align: center;}
+#mira-youtube {text-align: center;}
+
+/* ##################################################__Ellipse__################################################## */
+
+.econtainer1 {display: flex;}
+.eitem1 {margin: 2px;}
+#ellipse_define_img {text-align: center; border: 1px solid black;}
+
+.econtainer2 {display: flex;}
+.eitem2 {margin: 20px;}
+#ellipse_label {text-align: center; border: 1px solid black;}
+
+.econtainer3 {display: flex;}
+.eitem3 {margin: 2px;}
+.econtainer3-1 {display: flex;}
+.eitem3-1 {margin: 6px; text-align: center;}
+#ellipse_refl_imgs {text-align: center; border: 1px solid black;}
+
+.econtainer4 {display: flex;}
+.eitem4 {margin: 2px;}
+.econtainer4-1 {display: flex;}
+.eitem4-1 {text-align: center; margin: 20px;}
+
+/* ##################################################__Hyperbola__################################################## */
+.hcontainer1 {display: flex;}
+.hitem1 {margin: 2px;}
+#hyperbola_define_img {text-align: center; border: 1px solid black;}
+
+.hcontainer2 {display: flex;}
+.hitem2 {margin: 2px;}
+#hyperbola_label {text-align: center; border: 1px solid black;}
+
+.hcontainer3 {display: flex;}
+.hitem3 {margin: 2px}
+.hcontainer3-1 {display: flex;}
+.hitem3-1 {margin: 6px; text-align: center;}
+.hcontainer3-2 {display: flex;}
+.hitem3-2 {margin: 60px; text-align: center;}
+.hcontainer3-3 {display: flex;}
+.hitem3-3 {margin: 6px;}
+#loran_youtube {text-align: center;}
+
+
